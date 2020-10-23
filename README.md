@@ -30,7 +30,8 @@ Let's keep going. After picking two letters, we're left with 3. With the same lo
 And one more space left. We have two letters which we haven't chosen before. From any of the previous 60 possibilities, we now have two possibilities. That's 120 in total.
 So we've arrived at this by multiplying <b>5 × 4 × 3 × 2</b>. Why start from 5? Because we initially had 5 letters: ABCDE. Why have four numbers in our multiplication? Because there were 4 empty spaces: _ _ _ _.
 
-In general, you keep multiplying a decremented value starting from n, and do this k times: <b>n × (n - 1) × ... × (n - k + 1)</b>.
+In general, you keep multiplying a decremented value starting from n, and do this k times:
+#### <b>n × (n - 1) × ... × (n - k + 1)</b>.
 
 The last value is (n - k + 1) because you are multiplying k values in total. From n to (n - k + 1) there are k values in total (inclusive).
 
